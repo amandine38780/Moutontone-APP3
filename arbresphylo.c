@@ -8,7 +8,10 @@
 
 void analyse_arbre (arbre racine, int* nb_esp, int* nb_carac)
 {
-   printf ("À faire: fonction analyse_arbre fichier " __FILE__ "\n");
+   //printf ("À faire: fonction analyse_arbre fichier " __FILE__ "\n");
+   *nb_esp=0;
+	*nb_carac=0;
+	compter_arbre (racine, nb_esp, nb_carac);
 }
 
 
